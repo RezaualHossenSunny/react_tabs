@@ -1,1 +1,6 @@
-
+.show{
+    display: block;
+}
+.setShow{
+    display: none;
+}
