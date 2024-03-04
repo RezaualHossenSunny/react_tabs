@@ -13,14 +13,14 @@ function App() {
     <>
   <div  className='max-w-container mx-auto py-8 gap-6 flex'>
  <div onClick={()=> update(1)}>
- <p className='w-[100px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer active:bg-violet-700'>HTML</p>
+ <p className='w-[100px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300'>HTML</p>
  </div>
   <div onClick={()=> update(2)}>
-  <p className='w-[100px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer active:bg-violet-700'>CSS</p>
+  <p className='w-[100px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300'>CSS</p>
   </div>
 
  <div onClick={()=> update(3)}>
- <p className='w-[150px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer active:bg-violet-700'>Javascript</p>
+ <p className='w-[150px] px-5 py-4 bg-slate-700 text-white text-center font-bold text-xl rounded-xl cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300'>Javascript</p>
  </div>
   </div>
 
